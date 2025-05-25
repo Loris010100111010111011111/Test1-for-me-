@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:linear-gradient(to top left,  black, black, red, red);
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+  }
+   
+  form{
+     margin-top: 20px;
+     background:linear-gradient(to top left, black, black, red, red); 
+     padding:  40px 60px;
+     border-radius: 10px;
+     border:none;
+     min-width: 300px;
+  }
+
+  form h1{
+       color: black;
+       text-align: center;
+  }
+
+
+form .inputs {
+   display: flex;
+   flex-direction: column;
+}
+
+form .inputs input[type="email"], form .inputs input[type="password"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f2f2f2;
+    margin-bottom: 30px;
+}
+
+form p.inscription {
+    font-size: 14.5px;
+}
+
+  form button{
+   padding: 10.5px 20.5px;
+   border:none;
+   border-radius: 20px;
+  }
